@@ -72,7 +72,7 @@ class Application(db.Model):
         self.lastconnection = lastconnection
 
 def populate_tables():
-    new_user = User("Alice", "Miermon", 21, "alice.miermon@esme.fr", "Student")
+    new_user = User("Adelaide", "Laporte","29","ad.lap@gmail.com", "student")
     db.session.add(new_user)
     db.session.commit()
 
